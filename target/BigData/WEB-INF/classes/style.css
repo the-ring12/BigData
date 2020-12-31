@@ -1,0 +1,61 @@
+
+h1 {
+    text-align: center;
+}
+
+/* 日期时间选择 */
+.time_date {
+    text-align: center;
+}
+/* 日期时间时间选择的两个控件 */
+#test2, #test3 {
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* 顶部导航啦 */
+.bar {
+    width: 1000px;
+    background-color: #00F7DE;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.bar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.bar li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: #333333;
+    width: 200px;
+    text-align: center;
+    padding: 4px 0px;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: gray;
+}
+
+#content {
+    float: left;
+    margin-left: 150px;
+}
+
+.inverter {
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 40px;
+    height: 200px;
+    border: #00F7DE 1px solid;
+}
